@@ -1,1 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
 
+    /* margin , padding 0 korle content ar 4 pase kono gap thake na pura tai cover kore nay */
+  }
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #efeeee;
+    color: #333;
+    padding: 20px;
+  }
+
+
+header{
+    text-align: center;
+    padding: 40px 0;
+    background-color: #282c34;
+    color: white;
+
+}
+  
+.profile-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+/* use of objet-fir: 1. to make sure the element covers the entire container without stretching — and preserves the aspect ratio.
+ 2.When you want your image to fill the box completely but not get distorted, even if it means cropping some part of the image.
+ 3. Without object-fit: cover, the image might look squished or stretched if it's not a perfect square. With it — clean, pro look */
+
+}
+
+.about{
+    font-size:24px;
+    color: #444;
+    margin-bottom: 10px;
+    /* margin-bottom use kori for nicher lekha tar sathe abotu me ar majhe koto ta gap thakbe */
+    border-bottom: 2px solid #ddd;
+    display: inline-block;
+    /* in display property can be : inline, block,inline-block,none
+    inline: Takes only the space required by the element.(no margin/padding)
+    inline-block: similar to inline block but we can add margin and padding */
+    padding-bottom: 5px;
+      }
+
+h2 {
+  color: #444;
+  margin-bottom: 10px;
+     /* margin-bottom use kori for nicher lekha tar sathe abotu me ar majhe koto ta gap thakbe */
+  border-bottom: 2px solid #ddd;
+  /* use for skill ar niche border add korar jonno */
+  display: inline-block;
+  /* about a use korechi why lekha ache */
+  padding-bottom: 5px;
+  /* border and skill ar majer gap */
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  
+}
+.project {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fff;
+    border-left: 4px solid #007acc;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  }
+
+.EDUCATIONS {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fff;
+    border-left: 4px solid #007acc;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+    margin-top: 40px;
+  }
+
+a{
+  text-decoration: none;
+  color: #333;
+}
