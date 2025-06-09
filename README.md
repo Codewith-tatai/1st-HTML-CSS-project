@@ -1,2 +1,2 @@
-# Personal profile project
-CV
+# Project
+Projects Made using HTML CSS and JavaScript
