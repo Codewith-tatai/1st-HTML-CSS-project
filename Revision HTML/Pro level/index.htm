@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 'form' is the correct tag, not 'from' -->
+    <form>
+        <!-- 
+            type="text": Specifies this input is a single-line text field 
+            placeholder="user Name": Shows a hint to the user about what to enter
+        -->
+        <input type="text" placeholder="user Name">
+        <br>
+        <br>
+        <!-- 
+            type="password": Masks the input so characters are hidden 
+            placeholder="Enter Your Password": Shows a hint for password entry
+        -->
+        <input type="password" placeholder="Enter Your Password">
+    <br>
+    <br>
+    </form>
+    <p><b>Select Your Class</b></p>
+    <label for="id1">
+        <!-- 
+            type="radio": Creates a radio button 
+            value="class X": The value sent to the server if this radio is selected 
+            name="class": Groups radio buttons so only one can be selected at a time 
+            id="id1": Unique identifier for this input, used by the label's 'for' attribute
+        -->
+        <input type="radio" value="class X" name="class" id="id1"> class X
+    </label>
+    <br>
+    <label for="id2">
+         <input type="radio" value="class XI" name="class" id="id2"> class XI
+    </label>
+    <br>
+    <br>
+    <p><b>Select Your Subject</b></p>
+    <label for="Math">
+         <input type="checkbox" value="Math" id="101"> Math
+    </label>
+    <br>
+     <label for="Chemistry">
+         <input type="checkbox" value="Chemistry" id="102"> Chemistry
+    </label>
+    <br>
+     <label for="Math">
+         <input type="checkbox" value="DBMS" id="103"> DBMS
+    </label>
+    <br>
+     <label for="Math">
+         <input type="checkbox" value="CP" id="104"> CP
+    </label>
+    <br>
+    <br>
+    <button>Submit</button>
+    <br>
+    <br>
+        <!-- 
+        <textarea>: Multi-line text input field
+        name="feedback": The key sent to the server with the textarea's content
+        id="fed": Unique identifier for this textarea, useful for labels or scripts
+        placeholder="Please add your feedback": Shows a hint when the textarea is empty
+        rows="5": Sets the visible height of the textarea to 5 lines
+    -->
+    <textarea name="feedback" id="fed" placeholder="Please add your feedback">feedback</textarea>
+    <br>
+    <br>
+    <!-- 
+    <select>: Creates a drop-down list
+    name="city": The key sent to the server with the selected option's value
+    id="city": Unique identifier for this select element, useful for labels or scripts
+-->
+<select name="city" id="city">
+    <!-- 
+        <option>: Defines an option in the drop-down
+        value="Mumbai": The value sent to the server if this option is selected
+    -->
+    <option value="Mumbai">Mumbai</option>
+    <option value="Delhi">Delhi</option>
+    <option value="Bangalor">Bangalor</option>
+</select>
+</body>
+</html>
