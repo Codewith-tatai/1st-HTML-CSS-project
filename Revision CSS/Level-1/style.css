@@ -1,0 +1,23 @@
+
+*{
+    font-family: 'Times New Roman';
+    padding: 30px;
+    margin: 10px;
+    border: dashed red;
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ 
+}
+div{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

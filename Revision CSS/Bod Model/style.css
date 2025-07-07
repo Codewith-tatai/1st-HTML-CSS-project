@@ -1,0 +1,34 @@
+/* Style for 4 paragraphs */
+h5 {
+    background-color: #17b324;
+    padding: 1em 3px 30px 5px 
+    /* top- 1em(13.28px)
+       right-3px
+       bottom-30px
+       left-5px
+       */
+}
+
+h4 {
+    background-color: #f8b400;
+    padding: 5%; /* all side 5%  pading*/
+}
+
+h3{
+    background-color: #6a89cc;
+    padding: 10px;/* all side 10px pading*/
+}
+
+h2{
+    background-color: #38ada9;
+    padding: 10px 20px; /* top and bottom 10px pading*/ /* left and right 20px pading*/
+}
+
+h1{
+    background-color: #e55039;
+    padding: 10px 3% 20px; 
+    /* top 10px pading*/ 
+    /* left and right 3% (3% means 12.3 px) pading*/
+     /* bottom 20px pading*/
+
+}
