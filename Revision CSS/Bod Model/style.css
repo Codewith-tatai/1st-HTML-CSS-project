@@ -1,34 +1,49 @@
 /* Style for 4 paragraphs */
 h5 {
     background-color: #17b324;
-    padding: 1em 3px 30px 5px 
+    padding: 1em 3px 30px 5px;
+    border: 2px solid #000;
+
+
     /* top- 1em(13.28px)
        right-3px
        bottom-30px
        left-5px
-       */
+    */
+
 }
 
 h4 {
     background-color: #f8b400;
     padding: 5%; /* all side 5%  pading*/
+    border: 2px dotted;
 }
 
 h3{
     background-color: #6a89cc;
     padding: 10px;/* all side 10px pading*/
+    border:medium dashed green;
 }
 
 h2{
     background-color: #38ada9;
     padding: 10px 20px; /* top and bottom 10px pading*/ /* left and right 20px pading*/
+    /*border: inherit; gayeb border */
+    border: 1rem solid;
+    /*By default, 1rem = 16px (if the browser default font size is not changed).
+    Example: If you set font-size: 2rem;, it will be 32px (2 × 16px).*/
 }
 
 h1{
     background-color: #e55039;
-    padding: 10px 3% 20px; 
+    padding: 10px 3% 20px;
     /* top 10px pading*/ 
     /* left and right 3% (3% means 12.3 px) pading*/
      /* bottom 20px pading*/
+
+     border: 4mm ridge rgb(211 220 50/0.6);
+     /* 4mm: The border width is 4 millimeters.
+        ridge: The border style is "ridge" (a 3D grooved border).
+        rgb(211 220 50/0.6): The border color is an RGB color with alpha (opacity 0.6). */
 
 }
