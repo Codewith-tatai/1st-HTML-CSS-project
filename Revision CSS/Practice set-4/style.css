@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+    border-radius: 2px solid white;
+    
+}
+
+button{
+    background-color: #f08804;
+}
+
+#in{
+    color: #f08804;
+    font-size: 25px;
+}
+
+a{
+    margin-right: 200px;
+}
+
+
+.bccolor{
+    height: 100px;
+    width: 100px;
+    color: #0f1111;
+    border: 2px solid#0c4141;
+    margin: 10px;
+    display: inline-block;
+}
+
+#contentarea{
+    height: 700px;
+    /*for div boxes in center of the page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    color: #d9e6e6;
+    background-color: #0f1111;
+    text-align: center;
+}
+
+
